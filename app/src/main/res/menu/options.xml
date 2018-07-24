@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto" >
     <item android:id="@+id/previous"
         android:icon="@android:drawable/ic_menu_search"
@@ -11,6 +12,6 @@
         android:title="next" />
     <item android:id="@+id/next"
         app:showAsAction="ifRoom"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@android:drawable/ic_btn_speak_now"
         android:title="next" />
 </menu>
